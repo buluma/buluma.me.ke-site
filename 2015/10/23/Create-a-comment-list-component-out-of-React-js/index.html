@@ -2,47 +2,58 @@
 <html>
 <head>
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-KNQM2VC');</script>
-	<!-- End Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNQM2VC');</script>
+<!-- End Google Tag Manager -->
 
-	<title>Connor Leech</title>
+<title>Connor Leech</title>
 
-	<!-- Meta -->
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+<!-- Favicon -->
+<link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
 
-	<!-- Fonts -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<!-- Fonts -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 
-	<!-- Bootstrap -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<link rel='stylesheet' href='css/readable.bootswatch.css'>
-	<link rel='stylesheet' href='css/main.css'>
 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.css'>
+<link rel='stylesheet' href=../../../../css/main.css >
 </head>
 <body id='wrapper'>
-	<div class='container blog-post'>
-	<div class='row'>
-		<div class='col-sm-12'>
-			<a href='/' class="btn btn-yellow btn-circle" style='color:grey;'>
-            	<i class="fa fa-home fa-2"></i>
-        	</a>
-		</div>
-	</div>
-	<div class='row'>
-		<h1 class='author-name'>Create a comment list component out of React.js</h1>
-	    October 23, 2015 
-	    <hr />
-		<p>Clone the <a href="https://github.com/jasonshark/react-comment-list/tree/f7f7b0451edc008b25817c6fedb44b42001613ee" target="_blank" rel="external">starter code</a> or view the <a href="https://github.com/jasonshark/react-comment-list/tree/master" target="_blank" rel="external">finished code</a>.<br><a id="more"></a></p>
+	<div class='vueApp'>
+		<header>
+    <nav>
+        <a href="/blog" class='underline-link'>
+          <p class='navitem'>Blog</p>
+        </a>
+        <hr>
+    </nav>
+
+    <section class="hero is-danger is-medium">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-2">
+            Create a comment list component out of React.js
+          </h1>
+          <h2 class="subtitle is-4">
+            October 23, 2015 
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <div class='container top-offset-30'>
+        <div class='columns is-mobile'>
+            <div class='column is-8 is-offset-2'>
+                <p>Clone the <a href="https://github.com/jasonshark/react-comment-list/tree/f7f7b0451edc008b25817c6fedb44b42001613ee" target="_blank" rel="external">starter code</a> or view the <a href="https://github.com/jasonshark/react-comment-list/tree/master" target="_blank" rel="external">finished code</a>.<br><a id="more"></a></p>
 <h6 id="Create-components"><a href="#Create-components" class="headerlink" title="Create components"></a>Create components</h6><p>commit code: <a href="https://github.com/jasonshark/react-comment-list/tree/fd7504266de7266fa16b9286b57eb39a6ba00287" target="_blank" rel="external">https://github.com/jasonshark/react-comment-list/tree/fd7504266de7266fa16b9286b57eb39a6ba00287</a><br><figure class="highlight scala"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div></pre></td><td class="code"><pre><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">CommentList</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</div><div class="line">	render()&#123;</div><div class="line">		<span class="keyword">return</span> (</div><div class="line">			&lt;div className=<span class="symbol">'comment</span>-list'&gt;</div><div class="line">				<span class="type">CommentList</span></div><div class="line">			&lt;/div&gt;</div><div class="line">		);</div><div class="line">	&#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">CommentForm</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</div><div class="line">	render()&#123;</div><div class="line">		<span class="keyword">return</span> (</div><div class="line">			&lt;div className=<span class="symbol">'comment</span>-form'&gt;</div><div class="line">				<span class="type">CommentForm</span></div><div class="line">			&lt;/div&gt;</div><div class="line">		);</div><div class="line">	&#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="class"><span class="keyword">class</span> <span class="title">CommentBox</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span> </span>&#123;</div><div class="line">	render()&#123;</div><div class="line">		<span class="keyword">return</span> (</div><div class="line">			&lt;div className=<span class="symbol">'comment</span>-box'&gt;</div><div class="line">				&lt;h1&gt;<span class="type">Comments</span>&lt;/h1&gt;</div><div class="line">				&lt;<span class="type">CommentList</span> /&gt;</div><div class="line">				&lt;<span class="type">CommentForm</span> /&gt;</div><div class="line">			&lt;/div&gt;</div><div class="line">		);</div><div class="line">	&#125;</div><div class="line">&#125;</div><div class="line"></div><div class="line"><span class="comment">// add to DOM</span></div><div class="line"><span class="type">React</span>.render(</div><div class="line">	&lt;<span class="type">CommentBox</span>/&gt;,</div><div class="line">	document.getElementById(<span class="symbol">'conten</span>t')</div><div class="line">);</div></pre></td></tr></table></figure></p>
 <p>React components have a render method that returns regular HTML. Most of our html and javascript will be bound together in this JSX file. JSX compiles to raw javascript and uses many ES6 features like “class” and “extends” and arrow functions. We could do all of this in vanillaJS.</p>
 <p>Fire up our server with <code>npm install</code> and then <code>npm start</code>. This will launch the express server that is chilling in the “bin” directory. (More magic to come from that file later).</p>
@@ -63,7 +74,13 @@
 <p>Then add comment (the server will write to comments.json): <a href="https://github.com/jasonshark/react-comment-list/commit/ef3852a7908028e2a9418412cb0fbfe0ee3e85dc" target="_blank" rel="external">https://github.com/jasonshark/react-comment-list/commit/ef3852a7908028e2a9418412cb0fbfe0ee3e85dc</a></p>
 <p>Hope this was helpful. Any questions about this tutorial you can <a href="http://twitter.com/cleechtech" target="_blank" rel="external">tweet me</a></p>
 
+            </div>
+        </div>
+    </div>
+</header>
 	</div>
-</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+	<script src=../../../../js/main.js></script>
 </body>
 </html>

@@ -2,47 +2,58 @@
 <html>
 <head>
 	<!-- Google Tag Manager -->
-	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-	})(window,document,'script','dataLayer','GTM-KNQM2VC');</script>
-	<!-- End Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KNQM2VC');</script>
+<!-- End Google Tag Manager -->
 
-	<title>Connor Leech</title>
+<title>Connor Leech</title>
 
-	<!-- Meta -->
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- Meta -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
+<!-- Favicon -->
+<link rel="shortcut icon" href="/favicon.ico?" type="image/x-icon">
 
-	<!-- Fonts -->
-	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+<!-- Fonts -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
 
-	<!-- Bootstrap -->
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<link rel='stylesheet' href='css/readable.bootswatch.css'>
-	<link rel='stylesheet' href='css/main.css'>
 
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.css'>
+<link rel='stylesheet' href=../../../../css/main.css >
 </head>
 <body id='wrapper'>
-	<div class='container blog-post'>
-	<div class='row'>
-		<div class='col-sm-12'>
-			<a href='/' class="btn btn-yellow btn-circle" style='color:grey;'>
-            	<i class="fa fa-home fa-2"></i>
-        	</a>
-		</div>
-	</div>
-	<div class='row'>
-		<h1 class='author-name'>Part 3 - Add angular-ui-router to a Ruby On Rails app</h1>
-	    December 14, 2015 
-	    <hr />
-		<p><strong>tldr;</strong> — <a href="https://github.com/cleechtech/rails-task-list" target="_blank" rel="external">source code on github</a> (give it a star!)</p>
+	<div class='vueApp'>
+		<header>
+    <nav>
+        <a href="/blog" class='underline-link'>
+          <p class='navitem'>Blog</p>
+        </a>
+        <hr>
+    </nav>
+
+    <section class="hero is-danger is-medium">
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <h1 class="title is-2">
+            Part 3 - Add angular-ui-router to a Ruby On Rails app
+          </h1>
+          <h2 class="subtitle is-4">
+            December 14, 2015 
+          </h2>
+        </div>
+      </div>
+    </section>
+
+    <div class='container top-offset-30'>
+        <div class='columns is-mobile'>
+            <div class='column is-8 is-offset-2'>
+                <p><strong>tldr;</strong> — <a href="https://github.com/cleechtech/rails-task-list" target="_blank" rel="external">source code on github</a> (give it a star!)</p>
 <p>In <a href="http://cleechtech.github.io/2015/12/02/Ruby-On-Rails-%E2%80%94-Introduction-for-the-total-n00b/" target="_blank" rel="external">part 1</a> and <a href="http://cleechtech.github.io/2015/12/04/Add-Angular-js-to-Ruby-on-Rails-app/" target="_blank" rel="external">part 2</a> we set up a Ruby On Rails app with some static data and added angular and bower. In this post we will set up routing and request the list of tasks using angular instead of the rails template language.</p>
 <a id="more"></a>
 <h3 id="Make-Rails-routes"><a href="#Make-Rails-routes" class="headerlink" title="Make Rails routes"></a>Make Rails routes</h3><p>In <strong>config/routes.rb</strong> we are going to set up the task index template as the route. Any request that is unmatched (as a fallback) will also serve the index template. Angular is on the index template so most routing our users see will happen through angular.</p>
@@ -72,7 +83,13 @@
 <p>So here the “index” method will render the html page. The “all” method will send all of the tasks to the client as json, then angular will render them. To see the raw JSON point your browser to <code>http://localhost:3000/api/v1/tasks</code>.</p>
 <h3 id="Conclusion"><a href="#Conclusion" class="headerlink" title="Conclusion"></a>Conclusion</h3><p>In this tutorial we set up angular.js routing for our Ruby On Rails app. We serve client side templates and fetch data asynchronously using angular.js. You can <a href="https://github.com/cleechtech/rails-task-list" target="_blank" rel="external">check out the source code</a>. Give it a <a href="https://github.com/cleechtech/rails-task-list/stargazers" target="_blank" rel="external">star</a> if you find it helpful. Also you can ask me questions <a href="https://twitter.com/realjasonshark" target="_blank" rel="external">on twitter</a>.</p>
 
+            </div>
+        </div>
+    </div>
+</header>
 	</div>
-</div>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js'></script>
+	<script src=../../../../js/main.js></script>
 </body>
 </html>
