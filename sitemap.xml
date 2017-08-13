@@ -2,9 +2,79 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/2015/10/23/use-express-angular-and-jwt-to-make-a-secure-app/</loc>
+    
+    <lastmod>2017-08-13T16:59:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/10/22/thoughts-on-angular-todo-list/</loc>
+    
+    <lastmod>2017-08-13T16:59:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/10/24/Set-up-drf-to-play-well-with-angular-templates/</loc>
+    
+    <lastmod>2017-08-13T16:56:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/10/22/Some-basics-about-Stellar-and-cryptocurrency/</loc>
+    
+    <lastmod>2017-08-13T16:49:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/12/02/Ruby%20On%20Rails%E2%80%8Afor%20the%20MEAN%20stack%20developer/</loc>
+    
+    <lastmod>2017-08-13T16:42:07.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/12/14/Add-angular-ui-router-to-a-Ruby-On-Rails-app/</loc>
+    
+    <lastmod>2017-08-13T16:41:09.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/12/04/Add-Angular-js-to-Ruby-on-Rails-app/</loc>
+    
+    <lastmod>2017-08-13T16:41:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/10/20/On-Insurrection/</loc>
+    
+    <lastmod>2017-08-13T16:32:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/10/23/Oh-hurrow-Koa-js/</loc>
+    
+    <lastmod>2017-08-13T16:30:27.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/2015/10/23/Make-a-deck-of-cards-with-Django/</loc>
+    
+    <lastmod>2017-08-13T16:15:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/2015/10/23/log-in-with-twitter-from-client-with-angular-and-oauth-io/</loc>
     
-    <lastmod>2017-08-12T23:27:25.000Z</lastmod>
+    <lastmod>2017-08-13T16:04:54.000Z</lastmod>
     
   </url>
   
@@ -142,20 +212,6 @@
   </url>
   
   <url>
-    <loc>https://connorleech.info/2015/12/04/Add-Angular-js-to-Ruby-on-Rails-app/</loc>
-    
-    <lastmod>2017-08-12T22:20:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/12/14/Add-angular-ui-router-to-a-Ruby-On-Rails-app/</loc>
-    
-    <lastmod>2017-08-12T22:20:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://connorleech.info/2015/10/24/Build-a-blog-with-the-MEAN-stack-part-1/</loc>
     
     <lastmod>2017-08-12T22:20:18.000Z</lastmod>
@@ -173,62 +229,6 @@
     <loc>https://connorleech.info/2015/10/23/alright-time-to-start-a-startup/</loc>
     
     <lastmod>2017-08-12T22:08:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/10/23/Oh-hurrow-Koa-js/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/12/02/Ruby-On-Rails-%E2%80%94-Introduction-for-the-total-n00b/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/10/23/Make-a-deck-of-cards-with-Django/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/10/20/On-Insurrection/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/10/24/Set-up-drf-to-play-well-with-angular-templates/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/10/22/Some-basics-about-Stellar-and-cryptocurrency/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/10/22/thoughts-on-angular-todo-list/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/2015/10/23/use-express-angular-and-jwt-to-make-a-secure-app/</loc>
-    
-    <lastmod>2017-07-21T23:17:56.000Z</lastmod>
     
   </url>
   
