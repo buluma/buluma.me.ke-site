@@ -2,6 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/Build-an-online-forum-with-Laravel%E2%80%8A-Initial-Setup-and-Seeding-Part-1/</loc>
+    
+    <lastmod>2017-08-16T17:43:21.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Use-Resource-Controller-Artisan-and-Tinker-to-set-up-REST-API-in-Laravel-5/</loc>
+    
+    <lastmod>2017-08-16T17:31:56.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Generate-Authentication-for-a-Laravel-5-Web-Application/</loc>
+    
+    <lastmod>2017-08-16T17:22:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Build-Google-Maps-Typeahead-Functionality-with-Vuejs-and-Laravel-5/</loc>
+    
+    <lastmod>2017-08-16T17:16:05.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Create-a-custom-blog-theme-with-Hexojs/</loc>
+    
+    <lastmod>2017-08-16T17:10:54.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Building-a-feature-complete-bookmarking-app-with-Vue.js-Express-and-Sequelize-ORM/</loc>
+    
+    <lastmod>2017-08-16T17:06:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Ruby-On-Rails-or-Laravel-which-do-you-use/</loc>
+    
+    <lastmod>2017-08-16T17:02:10.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Laravel-5.3%20Form-Helpers-and-CRUD-Controller-Methods/</loc>
+    
+    <lastmod>2017-08-16T16:53:35.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/Build-a-Task-List-with-Laravel-5-and-Vue-2/</loc>
     
     <lastmod>2017-08-14T21:59:07.000Z</lastmod>
