@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/How-to-Build-Payment-Processing-with-Vuejs-and-Nodejs/</loc>
+    
+    <lastmod>2017-08-19T17:24:17.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/Build-an-online-forum-with-Laravel%E2%80%8A-Initial-Setup-and-Seeding-Part-1/</loc>
     
     <lastmod>2017-08-16T17:43:21.000Z</lastmod>
