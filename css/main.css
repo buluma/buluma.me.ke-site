@@ -8749,3 +8749,9 @@ nav.pagination {
 
 img.lost-image {
   margin-top: 100px; }
+
+.social-share {
+  color: white; }
+
+.twitter, .twitter:hover, .twitter:active, .twitter:focus {
+  background: #00aced; }
