@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/Deploy-a-Laravel-5-app-to-Heroku/</loc>
+    
+    <lastmod>2017-08-29T18:58:53.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/Tutorial-for-building-a-Web-Application-with-Amazon-S3-Lambda-DynamoDB-and-API-Gateway/</loc>
     
     <lastmod>2017-08-28T16:06:53.000Z</lastmod>
