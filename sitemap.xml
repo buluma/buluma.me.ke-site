@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/images/favicon/manifest.json</loc>
+    
+    <lastmod>2017-08-30T23:25:06.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/Deploy-a-Laravel-5-app-to-Heroku/</loc>
     
     <lastmod>2017-08-29T18:58:53.000Z</lastmod>
