@@ -8750,6 +8750,9 @@ nav.pagination {
 img.lost-image {
   margin-top: 100px; }
 
+a {
+  cursor: pointer; }
+
 .social-share {
   color: white; }
 

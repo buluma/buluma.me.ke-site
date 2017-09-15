@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/Build-a-shopping-cart-with-Vue-2-and-Vuex/</loc>
+    
+    <lastmod>2017-09-15T18:28:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/images/favicon/manifest.json</loc>
     
     <lastmod>2017-08-30T23:25:06.000Z</lastmod>
