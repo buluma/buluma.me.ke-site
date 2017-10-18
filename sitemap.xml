@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/ssl-https-heroku-google-domains/</loc>
+    
+    <lastmod>2017-10-18T20:29:18.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/Build-a-shopping-cart-with-vuejs-no-vuex/</loc>
     
     <lastmod>2017-10-09T16:44:34.000Z</lastmod>
