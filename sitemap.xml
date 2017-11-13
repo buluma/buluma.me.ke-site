@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/Debugging-and-development-tools-for-Laravel-5/</loc>
+    
+    <lastmod>2017-11-13T03:04:40.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Testing-Helpers-in-Laravel-5/</loc>
+    
+    <lastmod>2017-11-13T02:54:14.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/guestbook-application-with-Laravel-5/</loc>
     
     <lastmod>2017-11-13T02:46:57.000Z</lastmod>
