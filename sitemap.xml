@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/guestbook-application-with-Laravel-5/</loc>
+    
+    <lastmod>2017-11-13T02:46:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/launch-github-pages-google-domains/</loc>
     
     <lastmod>2017-10-18T20:43:35.000Z</lastmod>
