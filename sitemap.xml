@@ -2,6 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/2-Types-of-Software-Engineering-Interviews/</loc>
+    
+    <lastmod>2017-12-22T22:27:25.830Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/5-Steps-in-the-Sales-Process/</loc>
+    
+    <lastmod>2017-12-22T22:27:23.082Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Add-Angular-js-to-Ruby-on-Rails-app/</loc>
+    
+    <lastmod>2017-12-22T22:27:19.837Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Add-angular-ui-router-to-a-Ruby-On-Rails-app/</loc>
+    
+    <lastmod>2017-12-22T22:27:13.519Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Build-todo-list-with-angular-and-DRF/</loc>
+    
+    <lastmod>2017-12-22T22:26:48.957Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Create-a-starter-template-for-working-with-django-rest-framework/</loc>
+    
+    <lastmod>2017-12-22T22:26:31.761Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Handle-a-git-merge-conflict/</loc>
+    
+    <lastmod>2017-12-22T22:26:11.423Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Make-a-deck-of-cards-with-Django/</loc>
+    
+    <lastmod>2017-12-22T22:25:31.162Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Set-up-drf-to-play-well-with-angular-templates/</loc>
+    
+    <lastmod>2017-12-22T22:25:10.170Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Ruby%20On%20Rails%E2%80%8Afor%20the%20MEAN%20stack%20developer/</loc>
+    
+    <lastmod>2017-12-22T22:24:40.550Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/alright-time-to-start-a-startup/</loc>
+    
+    <lastmod>2017-12-22T22:24:22.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/On-Insurrection/</loc>
+    
+    <lastmod>2017-12-22T22:24:09.849Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/How-to-Install-MySQL-on-Mac-OSX/</loc>
+    
+    <lastmod>2017-12-22T22:23:10.181Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Some-basics-about-Stellar-and-cryptocurrency/</loc>
+    
+    <lastmod>2017-12-22T22:20:55.346Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/Tutorial-for-building-a-Web-Application-with-Amazon-S3-Lambda-DynamoDB-and-API-Gateway/</loc>
     
     <lastmod>2017-12-02T08:07:40.000Z</lastmod>
@@ -23,20 +121,6 @@
   </url>
   
   <url>
-    <loc>https://connorleech.info/blog/Some-basics-about-Stellar-and-cryptocurrency/</loc>
-    
-    <lastmod>2017-12-02T08:07:17.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/Set-up-drf-to-play-well-with-angular-templates/</loc>
-    
-    <lastmod>2017-12-02T08:07:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://connorleech.info/blog/Connor-Leech-on-Javascript-2015/</loc>
     
     <lastmod>2017-12-02T08:06:43.000Z</lastmod>
@@ -47,27 +131,6 @@
     <loc>https://connorleech.info/blog/Ruby-On-Rails-or-Laravel-which-do-you-use/</loc>
     
     <lastmod>2017-12-02T08:06:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/Ruby%20On%20Rails%E2%80%8Afor%20the%20MEAN%20stack%20developer/</loc>
-    
-    <lastmod>2017-12-02T08:06:23.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/On-Insurrection/</loc>
-    
-    <lastmod>2017-12-02T08:06:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/Make-a-deck-of-cards-with-Django/</loc>
-    
-    <lastmod>2017-12-02T08:06:05.000Z</lastmod>
     
   </url>
   
@@ -107,13 +170,6 @@
   </url>
   
   <url>
-    <loc>https://connorleech.info/blog/Handle-a-git-merge-conflict/</loc>
-    
-    <lastmod>2017-12-02T08:05:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://connorleech.info/blog/facebook-auth-with-ionic-and-firebase/</loc>
     
     <lastmod>2017-12-02T08:05:02.000Z</lastmod>
@@ -142,20 +198,6 @@
   </url>
   
   <url>
-    <loc>https://connorleech.info/blog/Create-a-starter-template-for-working-with-django-rest-framework/</loc>
-    
-    <lastmod>2017-12-02T08:04:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/Build-todo-list-with-angular-and-DRF/</loc>
-    
-    <lastmod>2017-12-02T08:03:55.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://connorleech.info/blog/Build-push-notifications-into-an-ionic-app/</loc>
     
     <lastmod>2017-12-02T08:03:48.000Z</lastmod>
@@ -180,41 +222,6 @@
     <loc>https://connorleech.info/blog/animate-angular-apps-with-ngFx/</loc>
     
     <lastmod>2017-12-02T08:03:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/alright-time-to-start-a-startup/</loc>
-    
-    <lastmod>2017-12-02T08:03:06.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/Add-angular-ui-router-to-a-Ruby-On-Rails-app/</loc>
-    
-    <lastmod>2017-12-02T08:02:58.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/Add-Angular-js-to-Ruby-on-Rails-app/</loc>
-    
-    <lastmod>2017-12-02T08:02:52.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/5-Steps-in-the-Sales-Process/</loc>
-    
-    <lastmod>2017-12-02T08:02:44.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/2-Types-of-Software-Engineering-Interviews/</loc>
-    
-    <lastmod>2017-12-02T08:02:38.000Z</lastmod>
     
   </url>
   
