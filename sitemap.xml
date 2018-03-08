@@ -2,6 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://connorleech.info/blog/Know-SQL-in-2018/</loc>
+    
+    <lastmod>2018-03-08T23:25:33.023Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/web-technologies-to-learn-in-2018/</loc>
+    
+    <lastmod>2018-03-08T23:25:05.143Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Build-a-quick-admin-panel-in-Laravel-5/</loc>
+    
+    <lastmod>2018-03-08T23:24:34.929Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Repository-design-pattern-in-Laravel-5/</loc>
+    
+    <lastmod>2018-03-08T23:10:28.437Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/Developers-intro-to-PHP/</loc>
+    
+    <lastmod>2018-03-08T23:05:56.453Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/create-a-wordpress-site-from-the-command-line/</loc>
+    
+    <lastmod>2018-03-08T23:02:29.520Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://connorleech.info/blog/How-to-Install-MySQL-on-Mac-OSX/</loc>
+    
+    <lastmod>2017-12-22T22:32:48.165Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://connorleech.info/blog/2-Types-of-Software-Engineering-Interviews/</loc>
     
     <lastmod>2017-12-22T22:27:25.830Z</lastmod>
@@ -82,13 +131,6 @@
     <loc>https://connorleech.info/blog/On-Insurrection/</loc>
     
     <lastmod>2017-12-22T22:24:09.849Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://connorleech.info/blog/How-to-Install-MySQL-on-Mac-OSX/</loc>
-    
-    <lastmod>2017-12-22T22:23:10.181Z</lastmod>
     
   </url>
   

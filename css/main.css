@@ -8758,3 +8758,9 @@ a {
 
 .twitter, .twitter:hover, .twitter:active, .twitter:focus {
   background: #00aced; }
+
+figure a {
+  border-bottom: none; }
+  figure a img {
+    width: 200px;
+    max-height: 200px; }
